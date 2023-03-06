@@ -1,0 +1,4 @@
+1.晚上回去改linux mysql版本 --> 8
+
+2. 解决push失败
+git config --global http.sslVerify false

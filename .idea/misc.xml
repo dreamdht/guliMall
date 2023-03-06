@@ -5,7 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-fast/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/guliMall-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/mall_admin/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectResources">
