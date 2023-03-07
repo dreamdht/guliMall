@@ -3,6 +3,7 @@ package com.flyfish.guliMall.product;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @autohr flyfish
@@ -11,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @Slf4j
+@EnableDiscoveryClient
 public class ProductApplication8000 {
     public static void main(String[] args) {
         log.info("ProductApplication8000服务已启动");

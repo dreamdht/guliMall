@@ -2,10 +2,10 @@ package com.flyfish.guliMall.ware.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
-import lombok.Data;
 
 /**
  * 
@@ -16,7 +16,7 @@ import lombok.Data;
  */
 @Data
 @TableName("undo_log")
-public class UndoLogEntity implements Serializable {
+public class UndoLogEntity<Longblob> implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	/**
