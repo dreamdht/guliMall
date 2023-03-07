@@ -4,32 +4,579 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327db799-26df-47a8-b8d5-b7d2b227ff57" name="Default Changelist" comment="version 1.0 day">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/mall/Demo8081Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="327db799-26df-47a8-b8d5-b7d2b227ff57" name="Default Changelist" comment="day1--version1.0">
+      <change afterPath="$PROJECT_DIR$/mall-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/flyfish/common/exception/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/flyfish/common/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/flyfish/common/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/flyfish/common/utils/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/flyfish/common/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/flyfish/common/validator/group/AliyunGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/flyfish/common/validator/group/QcloudGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/flyfish/common/validator/group/QiniuGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/flyfish/common/xss/HTMLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/flyfish/common/xss/SQLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/CouponApplication5000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/CouponController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/CouponHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/CouponSpuCategoryRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/CouponSpuRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/HomeAdvController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/HomeSubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/HomeSubjectSpuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/MemberPriceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/SeckillPromotionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/SeckillSessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/SeckillSkuNoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/SeckillSkuRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/SkuFullReductionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/SkuLadderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/controller/SpuBoundsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/CouponDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/CouponHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/CouponSpuCategoryRelationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/CouponSpuRelationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/HomeAdvDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/HomeSubjectDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/HomeSubjectSpuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/MemberPriceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/SeckillPromotionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/SeckillSessionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/SeckillSkuNoticeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/SeckillSkuRelationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/SkuFullReductionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/SkuLadderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/dao/SpuBoundsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/CouponEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/CouponHistoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/CouponSpuCategoryRelationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/CouponSpuRelationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/HomeAdvEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/HomeSubjectEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/HomeSubjectSpuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/MemberPriceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/SeckillPromotionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/SeckillSessionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/SeckillSkuNoticeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/SeckillSkuRelationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/SkuFullReductionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/SkuLadderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/entity/SpuBoundsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/CouponHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/CouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/CouponSpuCategoryRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/CouponSpuRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/HomeAdvService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/HomeSubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/HomeSubjectSpuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/MemberPriceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/SeckillPromotionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/SeckillSessionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/SeckillSkuNoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/SeckillSkuRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/SkuFullReductionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/SkuLadderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/SpuBoundsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/CouponHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/CouponServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/CouponSpuCategoryRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/CouponSpuRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/HomeAdvServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/HomeSubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/HomeSubjectSpuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/MemberPriceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/SeckillPromotionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/SeckillSessionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/SeckillSkuNoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/SeckillSkuRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/SkuFullReductionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/SkuLadderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/guliMall/coupon/service/impl/SpuBoundsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/CouponDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/CouponHistoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/CouponSpuCategoryRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/CouponSpuRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/HomeAdvDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/HomeSubjectDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/HomeSubjectSpuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/MemberPriceDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/SeckillPromotionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/SeckillSessionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/SeckillSkuNoticeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/SeckillSkuRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/SkuFullReductionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/SkuLadderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/mapper/coupon/SpuBoundsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/coupon-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/coupon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/couponhistory-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/couponhistory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/couponspucategoryrelation-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/couponspucategoryrelation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/couponspurelation-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/couponspurelation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/homeadv-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/homeadv.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/homesubject-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/homesubject.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/homesubjectspu-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/homesubjectspu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/memberprice-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/memberprice.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/seckillpromotion-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/seckillpromotion.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/seckillsession-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/seckillsession.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/seckillskunotice-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/seckillskunotice.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/seckillskurelation-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/seckillskurelation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/skufullreduction-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/skufullreduction.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/skuladder-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/skuladder.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/spubounds-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/src/views/modules/coupon/spubounds.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/MemberApplication6000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/controller/GrowthChangeHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/controller/IntegrationChangeHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/controller/MemberCollectSpuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/controller/MemberCollectSubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/controller/MemberLevelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/controller/MemberLoginLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/controller/MemberReceiveAddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/controller/MemberStatisticsInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/dao/GrowthChangeHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/dao/IntegrationChangeHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/dao/MemberCollectSpuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/dao/MemberCollectSubjectDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/dao/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/dao/MemberLevelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/dao/MemberLoginLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/dao/MemberReceiveAddressDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/dao/MemberStatisticsInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/entity/GrowthChangeHistoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/entity/IntegrationChangeHistoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/entity/MemberCollectSpuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/entity/MemberCollectSubjectEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/entity/MemberEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/entity/MemberLevelEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/entity/MemberLoginLogEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/entity/MemberReceiveAddressEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/entity/MemberStatisticsInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/GrowthChangeHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/IntegrationChangeHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/MemberCollectSpuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/MemberCollectSubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/MemberLevelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/MemberLoginLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/MemberReceiveAddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/MemberStatisticsInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/impl/GrowthChangeHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/impl/IntegrationChangeHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/impl/MemberCollectSpuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/impl/MemberCollectSubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/impl/MemberLevelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/impl/MemberLoginLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/impl/MemberReceiveAddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/flyfish/guliMall/member/service/impl/MemberStatisticsInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/mapper/member/GrowthChangeHistoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/mapper/member/IntegrationChangeHistoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/mapper/member/MemberCollectSpuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/mapper/member/MemberCollectSubjectDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/mapper/member/MemberDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/mapper/member/MemberLevelDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/mapper/member/MemberLoginLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/mapper/member/MemberReceiveAddressDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/mapper/member/MemberStatisticsInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/growthchangehistory-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/growthchangehistory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/integrationchangehistory-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/integrationchangehistory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/member-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/member.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/membercollectspu-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/membercollectspu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/membercollectsubject-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/membercollectsubject.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/memberlevel-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/memberlevel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/memberloginlog-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/memberloginlog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/memberreceiveaddress-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/memberreceiveaddress.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/memberstatisticsinfo-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/resources/src/views/modules/member/memberstatisticsinfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/OrderApplication7000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/controller/OrderItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/controller/OrderOperateHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/controller/OrderReturnApplyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/controller/OrderReturnReasonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/controller/OrderSettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/controller/PaymentInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/controller/RefundInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/dao/OrderItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/dao/OrderOperateHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/dao/OrderReturnApplyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/dao/OrderReturnReasonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/dao/OrderSettingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/dao/PaymentInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/dao/RefundInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/entity/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/entity/OrderItemEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/entity/OrderOperateHistoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/entity/OrderReturnApplyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/entity/OrderReturnReasonEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/entity/OrderSettingEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/entity/PaymentInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/entity/RefundInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/OrderItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/OrderOperateHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/OrderReturnApplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/OrderReturnReasonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/OrderSettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/PaymentInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/RefundInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/impl/OrderItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/impl/OrderOperateHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/impl/OrderReturnApplyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/impl/OrderReturnReasonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/impl/OrderSettingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/impl/PaymentInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/flyfish/guliMall/order/service/impl/RefundInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/order/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/order/OrderItemDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/order/OrderOperateHistoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/order/OrderReturnApplyDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/order/OrderReturnReasonDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/order/OrderSettingDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/order/PaymentInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/order/RefundInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/order-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/order.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/orderitem-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/orderitem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/orderoperatehistory-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/orderoperatehistory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/orderreturnapply-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/orderreturnapply.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/orderreturnreason-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/orderreturnreason.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/ordersetting-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/ordersetting.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/paymentinfo-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/paymentinfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/refundinfo-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/src/views/modules/order/refundinfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/ProductApplication8000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/AttrAttrgroupRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/AttrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/AttrGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/CategoryBrandRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/CommentReplayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/ProductAttrValueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/SkuImagesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/SkuInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/SkuSaleAttrValueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/SpuCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/SpuImagesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/SpuInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/controller/SpuInfoDescController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/AttrAttrgroupRelationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/AttrDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/AttrGroupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/BrandDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/CategoryBrandRelationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/CommentReplayDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/ProductAttrValueDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/SkuImagesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/SkuInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/SkuSaleAttrValueDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/SpuCommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/SpuImagesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/SpuInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/dao/SpuInfoDescDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/AttrAttrgroupRelationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/AttrEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/AttrGroupEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/BrandEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/CategoryBrandRelationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/CommentReplayEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/ProductAttrValueEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/SkuImagesEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/SkuInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/SkuSaleAttrValueEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/SpuCommentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/SpuImagesEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/SpuInfoDescEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/entity/SpuInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/AttrAttrgroupRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/AttrGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/AttrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/CategoryBrandRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/CommentReplayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/ProductAttrValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/SkuImagesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/SkuInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/SkuSaleAttrValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/SpuCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/SpuImagesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/SpuInfoDescService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/SpuInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/AttrAttrgroupRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/AttrGroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/CategoryBrandRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/CommentReplayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/ProductAttrValueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/SkuImagesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/SkuSaleAttrValueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/SpuCommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/SpuImagesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/SpuInfoDescServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/flyfish/guliMall/product/service/impl/SpuInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/AttrAttrgroupRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/AttrDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/AttrGroupDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/BrandDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/CategoryBrandRelationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/CategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/CommentReplayDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/ProductAttrValueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/SkuImagesDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/SkuInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/SkuSaleAttrValueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/SpuCommentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/SpuImagesDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/SpuInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/SpuInfoDescDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/attr-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/attr.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/attrattrgrouprelation-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/attrattrgrouprelation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/attrgroup-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/attrgroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/brand-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/brand.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/category-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/categorybrandrelation-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/categorybrandrelation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/commentreplay-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/commentreplay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/productattrvalue-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/productattrvalue.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/skuimages-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/skuimages.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/skuinfo-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/skuinfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/skusaleattrvalue-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/skusaleattrvalue.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/spucomment-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/spucomment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/spuimages-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/spuimages.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/spuinfo-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/spuinfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/spuinfodesc-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/src/views/modules/product/spuinfodesc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/test/java/com/flyfish/guliMall/product/MallProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/WareApplication9000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/controller/PurchaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/controller/PurchaseDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/controller/UndoLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/controller/WareInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/controller/WareOrderTaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/controller/WareOrderTaskDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/controller/WareSkuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/dao/PurchaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/dao/PurchaseDetailDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/dao/UndoLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/dao/WareInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/dao/WareOrderTaskDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/dao/WareOrderTaskDetailDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/dao/WareSkuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/entity/PurchaseDetailEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/entity/PurchaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/entity/UndoLogEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/entity/WareInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/entity/WareOrderTaskDetailEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/entity/WareOrderTaskEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/entity/WareSkuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/PurchaseDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/PurchaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/UndoLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/WareInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/WareOrderTaskDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/WareOrderTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/WareSkuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/impl/PurchaseDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/impl/PurchaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/impl/UndoLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/impl/WareInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/impl/WareOrderTaskDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/impl/WareOrderTaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/java/com/flyfish/guliMall/ware/service/impl/WareSkuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/mapper/ware/PurchaseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/mapper/ware/PurchaseDetailDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/mapper/ware/UndoLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/mapper/ware/WareInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/mapper/ware/WareOrderTaskDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/mapper/ware/WareOrderTaskDetailDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/mapper/ware/WareSkuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/purchase-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/purchase.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/purchasedetail-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/purchasedetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/undolog-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/undolog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/wareinfo-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/wareinfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/wareordertask-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/wareordertask.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/wareordertaskdetail-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/wareordertaskdetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/waresku-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/src/views/modules/ware/waresku.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/RenrenApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/adaptor/MongoTableInfoAdaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/config/DbConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/config/MongoCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/config/MongoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/config/MongoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/config/MongoNullCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/controller/SysGeneratorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/dao/GeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/dao/MongoDBGeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/dao/MySQLGeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/dao/OracleGeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/dao/PostgreSQLGeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/dao/SQLServerGeneratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/entity/ColumnEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/entity/TableEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/entity/mongo/MongoDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/entity/mongo/MongoGeneratorEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/entity/mongo/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/factory/MongoDBCollectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/service/SysGeneratorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/utils/GenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/utils/MongoScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/utils/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/utils/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/utils/RRExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/mapper/MySQLGeneratorDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/mapper/OracleGeneratorDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/mapper/PostgreSQLGeneratorDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/mapper/SQLServerGeneratorDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/css/all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/js/generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/libs/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/libs/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/libs/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/libs/fastclick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/libs/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/libs/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/libs/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/libs/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/jqgrid/grid.locale-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/jqgrid/jquery.jqGrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/layer/skin/moon/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/static/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/Controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/Dao.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/Dao.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/Entity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/MongoChildrenEntity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/MongoEntity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/Service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/ServiceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/add-or-update.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/index.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/menu.sql.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/views/generator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/views/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-generator/src/test/java/io/renren/RenrenApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-coupon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/flyfish/mall/Demo8081Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-ware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-ware/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进度计划.txt" beforeDir="false" afterPath="$PROJECT_DIR$/草稿纸.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/草稿纸.txt" beforeDir="false" afterPath="$PROJECT_DIR$/草稿纸.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +633,7 @@
     <property name="android.sdk.path" value="D:/Environment/android" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mall-ware/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -98,12 +645,26 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2564706" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\RootCode\项目\谷粒商城\guliMall" />
+      <recent name="E:\RootCode\项目\谷粒商城\guliMall\mall-ware\src\main\resources" />
+      <recent name="E:\RootCode\项目\谷粒商城\guliMall\mall-ware\src" />
+      <recent name="E:\RootCode\项目\谷粒商城\guliMall\mall-product\src\main\resources" />
+      <recent name="E:\RootCode\项目\谷粒商城\guliMall\mall-product\src" />
+      <recent name="E:\RootCode\项目\谷粒商城\guliMall\mall-order\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\RootCode\项目\谷粒商城\guliMall\mall-product\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.flyfish.guliMall" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.flyfish.common.utils" />
+      <recent name="com.flyfish.common.validator.group" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -113,7 +674,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RenrenApplication">
+  <component name="RunManager" selected="Spring Boot.RenrenGeneratorApplication">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -123,6 +684,48 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallProductApplication.demo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyfish.guliMall.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.flyfish.guliMall.product" />
+      <option name="MAIN_CLASS_NAME" value="com.flyfish.guliMall.product.MallProductApplication" />
+      <option name="METHOD_NAME" value="demo01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallProductApplication.demo02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyfish.guliMall.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.flyfish.guliMall.product" />
+      <option name="MAIN_CLASS_NAME" value="com.flyfish.guliMall.product.MallProductApplication" />
+      <option name="METHOD_NAME" value="demo02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringApplicationTest.demo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall-product" />
+      <option name="PACKAGE_NAME" value="com.flyfish.product" />
+      <option name="MAIN_CLASS_NAME" value="com.flyfish.guliMall.product.SpringApplicationTest" />
+      <option name="METHOD_NAME" value="demo01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,9 +743,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RenrenApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="renren-fast" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+    <configuration name="MallProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mall-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyfish.guliMall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.guliMall.MallProductApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,8 +763,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RenrenFastApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-fast" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenrenGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringApplicationTest.demo01" />
+      <item itemvalue="JUnit.MallProductApplication.demo01" />
+      <item itemvalue="JUnit.MallProductApplication.demo02" />
+      <item itemvalue="Spring Boot.RenrenApplication" />
+      <item itemvalue="Spring Boot.RenrenFastApplication" />
+      <item itemvalue="Spring Boot.RenrenGeneratorApplication" />
+      <item itemvalue="Spring Boot.Demo8081Application" />
+      <item itemvalue="Spring Boot.MallProductApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MallProductApplication.demo02" />
+        <item itemvalue="JUnit.MallProductApplication.demo01" />
+        <item itemvalue="Spring Boot.MallProductApplication" />
+        <item itemvalue="JUnit.SpringApplicationTest.demo01" />
         <item itemvalue="Spring Boot.Demo8081Application" />
       </list>
     </recent_temporary>
@@ -163,6 +802,9 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringBootOptions">
     <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\会飞的鱼\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -172,7 +814,11 @@
       <option name="presentableId" value="Default" />
       <updated>1678093231044</updated>
       <workItem from="1678093232381" duration="11117000" />
-      <workItem from="1678118736654" duration="57000" />
+      <workItem from="1678118736654" duration="677000" />
+      <workItem from="1678157309978" duration="6800000" />
+      <workItem from="1678167644000" duration="5225000" />
+      <workItem from="1678172942243" duration="4455000" />
+      <workItem from="1678180349734" duration="3922000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1678094312899</created>
@@ -181,11 +827,30 @@
       <option name="project" value="LOCAL" />
       <updated>1678094312899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day1--version1.0">
+      <created>1678118959970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678118959970</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -193,6 +858,7 @@
       <path value="$PROJECT_DIR$/renren-fast" />
     </ignored-roots>
     <MESSAGE value="project init" />
-    <option name="LAST_COMMIT_MESSAGE" value="project init" />
+    <MESSAGE value="day1--version1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="day1--version1.0" />
   </component>
 </project>

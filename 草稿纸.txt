@@ -2,3 +2,21 @@
 
 2. 解决push失败
 git config --global http.sslVerify false
+
+
+
+
+
+
+
+
+========================3.7
+解决SQL字段注释乱码问题
+
+执行SQL前加上这些:
+
+setcharacter_set_client= utf8;
+
+setcharacter_set_connection =utf8;
+
+setcharacter_set_results=utf8;

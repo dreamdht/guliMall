@@ -14,6 +14,8 @@
         <module>mall-product</module>
         <module>mall-ware</module>
         <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>mall-common</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -23,7 +25,7 @@
         <log4j.version>1.2.17</log4j.version>
         <lombok.version>1.18.10</lombok.version>
         <mysql.version>8.0.31</mysql.version>
-        <druid.version>1.2.14</druid.version>
+        <druid.version>1.1.10</druid.version>
         <springboot.version>2.2.2.RELEASE</springboot.version>
         <springcloud.version>Hoxton.SR1</springcloud.version>
         <springcloudalibaba.version>2.1.0.RELEASE</springcloudalibaba.version>
@@ -70,12 +72,11 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
-                <scope>runtime</scope>
             </dependency>
             <!-- druid-->
             <dependency>
                 <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
+                <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid.version}</version>
             </dependency>
             <!--LOG4j-->
