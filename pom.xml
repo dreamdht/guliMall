@@ -8,14 +8,15 @@
     <artifactId>guliMall</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>mall-coupon</module>
-        <module>mall-member</module>
-        <module>mall-order</module>
-        <module>mall-product</module>
-        <module>mall-ware</module>
-        <module>renren-fast</module>
-        <module>renren-generator</module>
         <module>mall-common</module>
+        <module>mall-coupon5000</module>
+        <module>mall-member6001</module>
+        <module>mall-order7000</module>
+        <module>mall-product8000</module>
+        <module>mall-ware9000</module>
+        <module>renren-fast8080</module>
+        <module>renren-generator80</module>
+        <module>mall-gateway9527</module>
     </modules>
     <packaging>pom</packaging>
 
