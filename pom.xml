@@ -36,6 +36,7 @@
         <hutool.version>5.2.3</hutool.version>
         <common-lang.version>2.6</common-lang.version>
         <lombok.version>1.18.12</lombok.version>
+        <aliOSS.version>2.2.0.RELEASE</aliOSS.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>8</maven.compiler.source>
@@ -120,6 +121,13 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
             </dependency>
+            <!--OSS-->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alicloud-oss</artifactId>
+                <version>${aliOSS.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
