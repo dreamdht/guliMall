@@ -102,7 +102,7 @@ public class MallProductApplication {
         // ossClient.getObject(new GetObjectRequest(bucketName, objectName), new File("pathOfYourLocalFile"));
         try {
             FileInputStream inputStream = new FileInputStream("E:\\resources\\images\\323.png");
-            ossClient.putObject("gulimall-flyfish","555.png",inputStream);
+            ossClient.putObject("gulimall-flyfish","777.png",inputStream);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

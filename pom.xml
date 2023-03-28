@@ -17,6 +17,7 @@
         <module>renren-fast8080</module>
         <module>renren-generator80</module>
         <module>mall-gateway9527</module>
+        <module>mall-thirdParty30000</module>
     </modules>
     <packaging>pom</packaging>
 

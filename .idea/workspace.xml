@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327db799-26df-47a8-b8d5-b7d2b227ff57" name="Default Changelist" comment="day2--version3.0&#10;第二天结束">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="327db799-26df-47a8-b8d5-b7d2b227ff57" name="Default Changelist" comment="day4--version4.0&#10;第四天结束&#10;商品三级分类+添加+修改+删除（✔）&#10;商品品牌brand.vue+CateGoryController（✔）&#10;商品品牌CURD完成（✔）&#10;后端实现阿里云OSS上传（✔）">
+      <change afterPath="$PROJECT_DIR$/mall-thirdParty30000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-thirdParty30000/src/main/java/com/flyfish/thirdService/controller/ThirdPartyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-thirdParty30000/src/test/java/com/flyfish/thirdService/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-thirdParty30000/target/classes/com/flyfish/thirdService/controller/ThirdPartyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-coupon5000/src/main/java/com/flyfish/guliMall/coupon/controller/CouponSpuRelationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon5000/src/main/java/com/flyfish/guliMall/coupon/controller/CouponSpuRelationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-gateway9527/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-gateway9527/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-gateway9527/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-gateway9527/target/mall-gateway9527-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mall-gateway9527/target/mall-gateway9527-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-gateway9527/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mall-gateway9527/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-product8000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product8000/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-product8000/src/test/java/com/flyfish/guliMall/product/MallProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product8000/src/test/java/com/flyfish/guliMall/product/MallProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-product8000/target/test-classes/com/flyfish/guliMall/product/MallProductApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product8000/target/test-classes/com/flyfish/guliMall/product/MallProductApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +92,7 @@
     <property name="android.sdk.path" value="D:/Environment/android" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mall-third-service30000/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,11 +112,11 @@
       <recent name="com.flyfish.guliMall.coupon.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\RootCode\项目\谷粒商城\guliMall\mall-third-service30000\src\main\resources" />
       <recent name="E:\RootCode\项目\谷粒商城\guliMall\renren-fast\src\main\resources" />
       <recent name="E:\RootCode\项目\谷粒商城\guliMall" />
       <recent name="E:\RootCode\项目\谷粒商城\guliMall\mall-ware\src\main\resources" />
       <recent name="E:\RootCode\项目\谷粒商城\guliMall\mall-coupon\src\main\resources" />
-      <recent name="E:\RootCode\项目\谷粒商城\guliMall\mall-member\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\RootCode\项目\谷粒商城\guliMall\mall-product\src\main\resources" />
@@ -119,14 +130,7 @@
       <recent name="com.flyfish.common.validator.group" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.MallProductApplication.demo05">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication9527">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -138,17 +142,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MallProductApplication.demo04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mall-product8000" />
+    <configuration name="Demo.demo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall-thirdParty30000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.flyfish.guliMall.product.*" />
+          <option name="PATTERN" value="com.flyfish.thirdService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.flyfish.guliMall.product" />
-      <option name="MAIN_CLASS_NAME" value="com.flyfish.guliMall.product.MallProductApplication" />
-      <option name="METHOD_NAME" value="demo04" />
+      <option name="PACKAGE_NAME" value="com.flyfish.thirdService" />
+      <option name="MAIN_CLASS_NAME" value="com.flyfish.thirdService.Demo" />
+      <option name="METHOD_NAME" value="demo01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo.demo02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall-thirdParty30000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyfish.thirdService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.flyfish.thirdService" />
+      <option name="MAIN_CLASS_NAME" value="com.flyfish.thirdService.Demo" />
+      <option name="METHOD_NAME" value="demo02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,30 +198,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApplication7000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="mall-order7000" />
+    <configuration name="GatewayApplication9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mall-gateway9527" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.flyfish.guliMall.order.*" />
+          <option name="PATTERN" value="com.flyfish.guliMall.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.guliMall.order.OrderApplication7000" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductApplication8000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="mall-product8000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.flyfish.guliMall.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.guliMall.product.ProductApplication8000" />
-      <option name="VM_PARAMETERS" value="-Dspring.output.ansi.enabled=ALWAYS" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.guliMall.GatewayApplication9527" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,15 +226,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WareApplication9000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="mall-ware9000" />
+    <configuration name="ThirdPartyApplication30000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mall-thirdParty30000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.flyfish.guliMall.ware.*" />
+          <option name="PATTERN" value="com.flyfish.thirdService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.guliMall.ware.WareApplication9000" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.thirdService.ThirdPartyApplication30000" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -251,22 +256,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MallProductApplication.demo04" />
       <item itemvalue="Spring Boot.CouponApplication5000" />
       <item itemvalue="Spring Boot.RenrenApplication8080" />
       <item itemvalue="Spring Boot.RenrenApplication" />
-      <item itemvalue="Spring Boot.ProductApplication8000" />
-      <item itemvalue="Spring Boot.WareApplication9000" />
-      <item itemvalue="Spring Boot.OrderApplication7000" />
       <item itemvalue="JUnit.MallProductApplication.demo05" />
+      <item itemvalue="JUnit.Demo.demo01" />
+      <item itemvalue="JUnit.Demo.demo02" />
+      <item itemvalue="Spring Boot.ThirdPartyApplication30000" />
+      <item itemvalue="Spring Boot.GatewayApplication9527" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApplication9527" />
+        <item itemvalue="Spring Boot.ThirdPartyApplication30000" />
+        <item itemvalue="JUnit.Demo.demo02" />
         <item itemvalue="JUnit.MallProductApplication.demo05" />
-        <item itemvalue="JUnit.MallProductApplication.demo04" />
-        <item itemvalue="Spring Boot.ProductApplication8000" />
-        <item itemvalue="Spring Boot.WareApplication9000" />
-        <item itemvalue="Spring Boot.OrderApplication7000" />
+        <item itemvalue="JUnit.Demo.demo01" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +307,7 @@
       <workItem from="1678605750175" duration="3949000" />
       <workItem from="1678624922171" duration="745000" />
       <workItem from="1679875100841" duration="587000" />
-      <workItem from="1679907686377" duration="10931000" />
+      <workItem from="1679907686377" duration="21123000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1678094312899</created>
@@ -332,7 +337,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678206460874</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="day4--version4.0&#10;第四天结束&#10;商品三级分类+添加+修改+删除（✔）&#10;商品品牌brand.vue+CateGoryContoller（✔）&#10;商品品牌CURD完成（✔）&#10;后端实现阿里云OSS上传（✔）">
+      <created>1679924957518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679924957518</updated>
+    </task>
+    <task id="LOCAL-00006" summary="day4--version4.0&#10;第四天结束&#10;商品三级分类+添加+修改+删除（✔）&#10;商品品牌brand.vue+CateGoryController（✔）&#10;商品品牌CURD完成（✔）&#10;后端实现阿里云OSS上传（✔）">
+      <created>1679925097491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679925097491</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +388,19 @@
     <MESSAGE value="day1--version1.0" />
     <MESSAGE value="day2--version2.0&#10;后端微服务模块构建完成" />
     <MESSAGE value="day2--version3.0&#10;第二天结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="day2--version3.0&#10;第二天结束" />
+    <MESSAGE value="day4--version4.0&#10;第四天结束&#10;商品三级分类+添加+修改+删除（✔）&#10;商品品牌brand.vue+CateGoryContoller（✔）&#10;商品品牌CURD完成（✔）&#10;后端实现阿里云OSS上传（✔）" />
+    <MESSAGE value="day4--version4.0&#10;第四天结束&#10;商品三级分类+添加+修改+删除（✔）&#10;商品品牌brand.vue+CateGoryController（✔）&#10;商品品牌CURD完成（✔）&#10;后端实现阿里云OSS上传（✔）" />
+    <option name="LAST_COMMIT_MESSAGE" value="day4--version4.0&#10;第四天结束&#10;商品三级分类+添加+修改+删除（✔）&#10;商品品牌brand.vue+CateGoryController（✔）&#10;商品品牌CURD完成（✔）&#10;后端实现阿里云OSS上传（✔）" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

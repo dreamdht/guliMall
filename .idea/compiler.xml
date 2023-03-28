@@ -10,6 +10,7 @@
         <module name="mall-coupon5000" />
         <module name="mall-product8000" />
         <module name="renren-fast8080" />
+        <module name="mall-thirdParty30000" />
         <module name="renren-generator80" />
         <module name="mall-order7000" />
         <module name="mall-gateway9527" />
